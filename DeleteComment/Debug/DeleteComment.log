@@ -1,5 +1,3 @@
 ﻿  funcs.cpp
 D:\Desktop\NewFolder 7\kINpo\MilkaProject\DeleteComment\funcs.cpp(9,8): error C2561: findStrInText: функция должна возвращать значение
 D:\Desktop\NewFolder 7\kINpo\MilkaProject\DeleteComment\funcs.cpp(7): message : см. объявление "findStrInText"
-D:\Desktop\NewFolder 7\kINpo\MilkaProject\DeleteComment\funcs.cpp(14,8): error C2561: cmpCoordinate: функция должна возвращать значение
-D:\Desktop\NewFolder 7\kINpo\MilkaProject\DeleteComment\funcs.cpp(12): message : см. объявление "cmpCoordinate"
