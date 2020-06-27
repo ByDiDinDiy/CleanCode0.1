@@ -6,7 +6,33 @@
 
 bool findStrInText(const char text[MAX_SIZE_STRING][MAX_SIZE_SYMBOL], const int lengthOfText, const char* symbolInput, int* x, int* y)
 {
-	return;
+	bool found = 0;
+	*x = 0;
+	*y = 0;
+
+	//Для каждой строчки пока не конец текста или не нашлась нужная лексема 
+	while (*y < lengthOfText && found == 0)
+	{
+		//Если лексема находится в текущей строке, то
+		if (strstr(text[*y], symbolInput))
+		{
+			//запомнить её координату
+			*x = strstr(text[*y], symbolInput) - text[*y];
+			found = 1;
+		}
+		//Иначе
+		else
+			//Перейти на следующую строку
+			(*y)++;
+	}
+
+	//Если лексемы нет в тексте, то  передаём соответствующие значения
+	if (found == 0) {
+		*x = -1;
+		*y = -1;
+	}
+
+	return found;
 }
 
 bool cmpCoordinate(const int x1, const int y1, const int x2, const int y2)
