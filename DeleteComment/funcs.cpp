@@ -11,7 +11,28 @@ bool findStrInText(const char text[MAX_SIZE_STRING][MAX_SIZE_SYMBOL], const int 
 
 bool cmpCoordinate(const int x1, const int y1, const int x2, const int y2)
 {
-	return;
+	bool resault;
+
+	//если первого символа нет, то
+	if (y1 == -1)
+		resault = 1;//считаем что второй символ ближе к началу текста 
+	//иначе, если второго символа нет, то
+	else if (y2 == -1)
+		resault = 0;//считаем что первый символ ближе к началу текста 
+	//если координаат "y" меньше у первой точки, то
+	else if (y1 < y2)
+		resault = 0;//считаем что первый символ ближе к началу текста 
+	//иначе если координаат "y" больше у первой точки, то
+	else if (y1 > y2)
+		resault = 1;//считаем что второй символ ближе к началу текста 
+	//иначе если "y" координаты равны, а координата "x" меньше у первого, то
+	else if (x1 < x2)
+		resault = 0;//считаем что первый символ ближе к началу текста 
+	//иначе 
+	else
+		resault = 1;//считаем что второй символ ближе к началу текста
+
+	return resault;
 }
 
 int deleteCommentsInCode(char text[MAX_SIZE_STRING][MAX_SIZE_SYMBOL], const int lengthOfText)
