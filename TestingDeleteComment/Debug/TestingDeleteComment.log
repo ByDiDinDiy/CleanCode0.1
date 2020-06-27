@@ -1,4 +1,40 @@
 ﻿  pch.cpp
-  TestingDeleteComment.cpp
-     Создается библиотека F:\trash\MilkaProject\DeleteComment\Debug\TestingDeleteComment.lib и объект F:\trash\MilkaProject\DeleteComment\Debug\TestingDeleteComment.exp
-  TestingDeleteComment.vcxproj -> F:\trash\MilkaProject\DeleteComment\Debug\TestingDeleteComment.dll
+  TestingCmpCoordinate.cpp
+D:\Desktop\NewFolder 7\kINpo\MilkaProject\TestingDeleteComment\TestingCmpCoordinate.cpp(26,3): error C2535: const Microsoft::VisualStudio::CppUnitTestFramework::MemberMethodInfo *TestingDeleteComment::TestingDeleteComment::__GetTestMethodInfo_cmpCoordinate(void): функция-член уже определена или объявлена
+D:\Desktop\NewFolder 7\kINpo\MilkaProject\TestingDeleteComment\TestingCmpCoordinate.cpp(15): message : см. объявление "TestingDeleteComment::TestingDeleteComment::__GetTestMethodInfo_cmpCoordinate"
+D:\Desktop\NewFolder 7\kINpo\MilkaProject\TestingDeleteComment\TestingCmpCoordinate.cpp(27,3): error C2535: void TestingDeleteComment::TestingDeleteComment::cmpCoordinate(void): функция-член уже определена или объявлена
+D:\Desktop\NewFolder 7\kINpo\MilkaProject\TestingDeleteComment\TestingCmpCoordinate.cpp(15): message : см. объявление "TestingDeleteComment::TestingDeleteComment::cmpCoordinate"
+D:\Desktop\NewFolder 7\kINpo\MilkaProject\TestingDeleteComment\TestingCmpCoordinate.cpp(37,3): error C2535: const Microsoft::VisualStudio::CppUnitTestFramework::MemberMethodInfo *TestingDeleteComment::TestingDeleteComment::__GetTestMethodInfo_cmpCoordinate(void): функция-член уже определена или объявлена
+D:\Desktop\NewFolder 7\kINpo\MilkaProject\TestingDeleteComment\TestingCmpCoordinate.cpp(15): message : см. объявление "TestingDeleteComment::TestingDeleteComment::__GetTestMethodInfo_cmpCoordinate"
+D:\Desktop\NewFolder 7\kINpo\MilkaProject\TestingDeleteComment\TestingCmpCoordinate.cpp(38,3): error C2535: void TestingDeleteComment::TestingDeleteComment::cmpCoordinate(void): функция-член уже определена или объявлена
+D:\Desktop\NewFolder 7\kINpo\MilkaProject\TestingDeleteComment\TestingCmpCoordinate.cpp(15): message : см. объявление "TestingDeleteComment::TestingDeleteComment::cmpCoordinate"
+D:\Desktop\NewFolder 7\kINpo\MilkaProject\TestingDeleteComment\TestingCmpCoordinate.cpp(52,3): error C2535: const Microsoft::VisualStudio::CppUnitTestFramework::MemberMethodInfo *TestingDeleteComment::TestingDeleteComment::__GetTestMethodInfo_cmpCoordinate(void): функция-член уже определена или объявлена
+D:\Desktop\NewFolder 7\kINpo\MilkaProject\TestingDeleteComment\TestingCmpCoordinate.cpp(15): message : см. объявление "TestingDeleteComment::TestingDeleteComment::__GetTestMethodInfo_cmpCoordinate"
+D:\Desktop\NewFolder 7\kINpo\MilkaProject\TestingDeleteComment\TestingCmpCoordinate.cpp(53,3): error C2535: void TestingDeleteComment::TestingDeleteComment::cmpCoordinate(void): функция-член уже определена или объявлена
+D:\Desktop\NewFolder 7\kINpo\MilkaProject\TestingDeleteComment\TestingCmpCoordinate.cpp(15): message : см. объявление "TestingDeleteComment::TestingDeleteComment::cmpCoordinate"
+D:\Desktop\NewFolder 7\kINpo\MilkaProject\TestingDeleteComment\TestingCmpCoordinate.cpp(63,3): error C2535: const Microsoft::VisualStudio::CppUnitTestFramework::MemberMethodInfo *TestingDeleteComment::TestingDeleteComment::__GetTestMethodInfo_cmpCoordinate(void): функция-член уже определена или объявлена
+D:\Desktop\NewFolder 7\kINpo\MilkaProject\TestingDeleteComment\TestingCmpCoordinate.cpp(15): message : см. объявление "TestingDeleteComment::TestingDeleteComment::__GetTestMethodInfo_cmpCoordinate"
+D:\Desktop\NewFolder 7\kINpo\MilkaProject\TestingDeleteComment\TestingCmpCoordinate.cpp(64,3): error C2535: void TestingDeleteComment::TestingDeleteComment::cmpCoordinate(void): функция-член уже определена или объявлена
+D:\Desktop\NewFolder 7\kINpo\MilkaProject\TestingDeleteComment\TestingCmpCoordinate.cpp(15): message : см. объявление "TestingDeleteComment::TestingDeleteComment::cmpCoordinate"
+D:\Desktop\NewFolder 7\kINpo\MilkaProject\TestingDeleteComment\TestingCmpCoordinate.cpp(76,3): error C2535: const Microsoft::VisualStudio::CppUnitTestFramework::MemberMethodInfo *TestingDeleteComment::TestingDeleteComment::__GetTestMethodInfo_cmpCoordinate(void): функция-член уже определена или объявлена
+D:\Desktop\NewFolder 7\kINpo\MilkaProject\TestingDeleteComment\TestingCmpCoordinate.cpp(15): message : см. объявление "TestingDeleteComment::TestingDeleteComment::__GetTestMethodInfo_cmpCoordinate"
+D:\Desktop\NewFolder 7\kINpo\MilkaProject\TestingDeleteComment\TestingCmpCoordinate.cpp(77,3): error C2535: void TestingDeleteComment::TestingDeleteComment::cmpCoordinate(void): функция-член уже определена или объявлена
+D:\Desktop\NewFolder 7\kINpo\MilkaProject\TestingDeleteComment\TestingCmpCoordinate.cpp(15): message : см. объявление "TestingDeleteComment::TestingDeleteComment::cmpCoordinate"
+D:\Desktop\NewFolder 7\kINpo\MilkaProject\TestingDeleteComment\TestingCmpCoordinate.cpp(87,3): error C2535: const Microsoft::VisualStudio::CppUnitTestFramework::MemberMethodInfo *TestingDeleteComment::TestingDeleteComment::__GetTestMethodInfo_cmpCoordinate(void): функция-член уже определена или объявлена
+D:\Desktop\NewFolder 7\kINpo\MilkaProject\TestingDeleteComment\TestingCmpCoordinate.cpp(15): message : см. объявление "TestingDeleteComment::TestingDeleteComment::__GetTestMethodInfo_cmpCoordinate"
+D:\Desktop\NewFolder 7\kINpo\MilkaProject\TestingDeleteComment\TestingCmpCoordinate.cpp(88,3): error C2535: void TestingDeleteComment::TestingDeleteComment::cmpCoordinate(void): функция-член уже определена или объявлена
+D:\Desktop\NewFolder 7\kINpo\MilkaProject\TestingDeleteComment\TestingCmpCoordinate.cpp(15): message : см. объявление "TestingDeleteComment::TestingDeleteComment::cmpCoordinate"
+D:\Desktop\NewFolder 7\kINpo\MilkaProject\TestingDeleteComment\TestingCmpCoordinate.cpp(21,1): error C2660: TestingDeleteComment::TestingDeleteComment::cmpCoordinate: функция не принимает 4 аргументов
+D:\Desktop\NewFolder 7\kINpo\MilkaProject\TestingDeleteComment\TestingCmpCoordinate.cpp(15,3): message : см. объявление "TestingDeleteComment::TestingDeleteComment::cmpCoordinate"
+D:\Desktop\NewFolder 7\kINpo\MilkaProject\TestingDeleteComment\TestingCmpCoordinate.cpp(32,1): error C2660: TestingDeleteComment::TestingDeleteComment::cmpCoordinate: функция не принимает 4 аргументов
+D:\Desktop\NewFolder 7\kINpo\MilkaProject\TestingDeleteComment\TestingCmpCoordinate.cpp(15,3): message : см. объявление "TestingDeleteComment::TestingDeleteComment::cmpCoordinate"
+D:\Desktop\NewFolder 7\kINpo\MilkaProject\TestingDeleteComment\TestingCmpCoordinate.cpp(43,1): error C2660: TestingDeleteComment::TestingDeleteComment::cmpCoordinate: функция не принимает 4 аргументов
+D:\Desktop\NewFolder 7\kINpo\MilkaProject\TestingDeleteComment\TestingCmpCoordinate.cpp(15,3): message : см. объявление "TestingDeleteComment::TestingDeleteComment::cmpCoordinate"
+D:\Desktop\NewFolder 7\kINpo\MilkaProject\TestingDeleteComment\TestingCmpCoordinate.cpp(58,1): error C2660: TestingDeleteComment::TestingDeleteComment::cmpCoordinate: функция не принимает 4 аргументов
+D:\Desktop\NewFolder 7\kINpo\MilkaProject\TestingDeleteComment\TestingCmpCoordinate.cpp(15,3): message : см. объявление "TestingDeleteComment::TestingDeleteComment::cmpCoordinate"
+D:\Desktop\NewFolder 7\kINpo\MilkaProject\TestingDeleteComment\TestingCmpCoordinate.cpp(69,1): error C2660: TestingDeleteComment::TestingDeleteComment::cmpCoordinate: функция не принимает 4 аргументов
+D:\Desktop\NewFolder 7\kINpo\MilkaProject\TestingDeleteComment\TestingCmpCoordinate.cpp(15,3): message : см. объявление "TestingDeleteComment::TestingDeleteComment::cmpCoordinate"
+D:\Desktop\NewFolder 7\kINpo\MilkaProject\TestingDeleteComment\TestingCmpCoordinate.cpp(82,1): error C2660: TestingDeleteComment::TestingDeleteComment::cmpCoordinate: функция не принимает 4 аргументов
+D:\Desktop\NewFolder 7\kINpo\MilkaProject\TestingDeleteComment\TestingCmpCoordinate.cpp(15,3): message : см. объявление "TestingDeleteComment::TestingDeleteComment::cmpCoordinate"
+D:\Desktop\NewFolder 7\kINpo\MilkaProject\TestingDeleteComment\TestingCmpCoordinate.cpp(93,1): error C2660: TestingDeleteComment::TestingDeleteComment::cmpCoordinate: функция не принимает 4 аргументов
+D:\Desktop\NewFolder 7\kINpo\MilkaProject\TestingDeleteComment\TestingCmpCoordinate.cpp(15,3): message : см. объявление "TestingDeleteComment::TestingDeleteComment::cmpCoordinate"
