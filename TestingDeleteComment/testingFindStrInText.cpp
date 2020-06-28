@@ -9,12 +9,10 @@ namespace TestingDeleteComment
 	TEST_CLASS(FindStrInText)
 	{
 	public:
-		//1 По нахождению:
-
+		//1 По нахождению
 		///1.1 В строке
-
 		////1.1.1 В начале строки
-		TEST_METHOD(TestMethod1)
+		TEST_METHOD(beginningOfTheLine)
 		{
 			int countOfStrings = 5;
 			char programmText[MAX_SIZE_STRING][MAX_SIZE_SYMBOL] =
@@ -35,7 +33,7 @@ namespace TestingDeleteComment
 			Assert::AreEqual(resault, expected);
 		}
 		////1.1.2 В конце строки
-		TEST_METHOD(TestMethod21)
+		TEST_METHOD(endOfTheLine)
 		{
 			int countOfStrings = 5;
 			char programmText[MAX_SIZE_STRING][MAX_SIZE_SYMBOL] =
@@ -56,7 +54,7 @@ namespace TestingDeleteComment
 			Assert::AreEqual(resault, expected);
 		}
 		////1.1.3 В середине строки
-		TEST_METHOD(TestMethod3)
+		TEST_METHOD(middleOfTheLine)
 		{
 			int countOfStrings = 5;
 			char programmText[MAX_SIZE_STRING][MAX_SIZE_SYMBOL] =
@@ -77,9 +75,8 @@ namespace TestingDeleteComment
 			Assert::AreEqual(resault, expected);
 		}
 		///1.2 В столбце
-
 		////1.2.1 В начале столбца
-		TEST_METHOD(TestMethod4)
+		TEST_METHOD(beginningOfTheСolumn)
 		{
 			int countOfStrings = 5;
 			char programmText[MAX_SIZE_STRING][MAX_SIZE_SYMBOL] =
@@ -100,7 +97,7 @@ namespace TestingDeleteComment
 			Assert::AreEqual(resault, expected);
 		}
 		////1.2.2 В конце столбца
-		TEST_METHOD(TestMethod5)
+		TEST_METHOD(endOfTheСolumn)
 		{
 			int countOfStrings = 5;
 			char programmText[MAX_SIZE_STRING][MAX_SIZE_SYMBOL] =
@@ -121,7 +118,7 @@ namespace TestingDeleteComment
 			Assert::AreEqual(resault, expected);
 		}
 		////1.2.3 В середине столбца
-		TEST_METHOD(TestMethod6)
+		TEST_METHOD(middleOfTheСolumn)
 		{
 			int countOfStrings = 5;
 			char programmText[MAX_SIZE_STRING][MAX_SIZE_SYMBOL] =
@@ -142,9 +139,8 @@ namespace TestingDeleteComment
 			Assert::AreEqual(resault, expected);
 		}
 		//2.По размеру
-
 		///2.1 Занимает всю строку
-		TEST_METHOD(TestMethod7)
+		TEST_METHOD(allLine)
 		{
 			int countOfStrings = 5;
 			char programmText[MAX_SIZE_STRING][MAX_SIZE_SYMBOL] =
@@ -165,7 +161,7 @@ namespace TestingDeleteComment
 			Assert::AreEqual(resault, expected);
 		}
 		///2.2 Минимально возможное количетсво символов
-		TEST_METHOD(TestMethod8)
+		TEST_METHOD(oneSymbol)
 		{
 			int countOfStrings = 5;
 			char programmText[MAX_SIZE_STRING][MAX_SIZE_SYMBOL] =
@@ -186,7 +182,7 @@ namespace TestingDeleteComment
 			Assert::AreEqual(resault, expected);
 		}
 		//3 Таких символов нет
-		TEST_METHOD(TestMethod9)
+		TEST_METHOD(noSymbol)
 		{
 			int countOfStrings = 5;
 			char programmText[MAX_SIZE_STRING][MAX_SIZE_SYMBOL] =

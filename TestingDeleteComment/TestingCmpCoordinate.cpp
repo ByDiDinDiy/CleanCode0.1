@@ -10,9 +10,8 @@ namespace TestingDeleteComment
 	{
 	public:
 		//1 Существование 
-
 		///1.1 Первой точки не существует
-		TEST_METHOD(TestMethod11)
+		TEST_METHOD(firstСharacterIsNotPresent)
 		{
 			int x1 = -1, y1 = -1;
 			int x2 = 0, y2 = 0;
@@ -23,7 +22,7 @@ namespace TestingDeleteComment
 			Assert::AreEqual(resault, expected);
 		}
 		///1.2 Второй точки не существует
-		TEST_METHOD(TestMethod12)
+		TEST_METHOD(secondСharacterIsNotPresent)
 		{
 			int x1 = 0, y1 = 0;
 			int x2 = -1, y2 = -1;
@@ -34,7 +33,7 @@ namespace TestingDeleteComment
 			Assert::AreEqual(resault, expected);
 		}
 		///1.3 Обоих точек нет
-		TEST_METHOD(TestMethod13)
+		TEST_METHOD(bothCharactersAreNotPresent)
 		{
 			int x1 = -1, y1 = -1;
 			int x2 = -1, y2 = -1;
@@ -45,11 +44,9 @@ namespace TestingDeleteComment
 			Assert::AreEqual(resault, expected);
 		}
 		//2 на нахождение в тексте 
-
 		///2.1 первый символ встречается раньше второго
-
 		////2.1.1 на разныx строчках
-		TEST_METHOD(TestMethod211)
+		TEST_METHOD(firstCharacterIsCloser)
 		{
 			int x1 = 2, y1 = 3;
 			int x2 = 0, y2 = 5;
@@ -60,7 +57,7 @@ namespace TestingDeleteComment
 			Assert::AreEqual(resault, expected);
 		}
 		////2.1.2 на одной строчке
-		TEST_METHOD(TestMethod212)
+		TEST_METHOD(secodCharacterIsCloser)
 		{
 			int x1 = 2, y1 = 3;
 			int x2 = 3, y2 = 3;
@@ -71,9 +68,8 @@ namespace TestingDeleteComment
 			Assert::AreEqual(resault, expected);
 		}
 		///2.2 второй символ встречается раньше первого
-
 		////2.2.1 на разныx строчках
-		TEST_METHOD(TestMethod221)
+		TEST_METHOD(firstCharacterIsCloser1)
 		{
 			int x1 = 0, y1 = 5;
 			int x2 = 0, y2 = 3;
@@ -84,7 +80,7 @@ namespace TestingDeleteComment
 			Assert::AreEqual(resault, expected);
 		}
 		////2.1.2 на одной строчке
-		TEST_METHOD(TestMethod222)
+		TEST_METHOD(secodCharacterIsCloser1)
 		{
 			int x1 = 7, y1 = 3;
 			int x2 = 5, y2 = 3;

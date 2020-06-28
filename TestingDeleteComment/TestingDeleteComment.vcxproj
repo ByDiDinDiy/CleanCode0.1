@@ -166,6 +166,7 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
     <ClCompile Include="TestingCmpCoordinate.cpp" />
+    <ClCompile Include="testingDeleteText.cpp" />
     <ClCompile Include="testingFindStrInText.cpp" />
   </ItemGroup>
   <ItemGroup>
