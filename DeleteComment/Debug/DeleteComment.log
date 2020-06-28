@@ -1,3 +1,2 @@
 ﻿  funcs.cpp
-D:\Desktop\NewFolder 7\kINpo\MilkaProject\DeleteComment\funcs.cpp(9,8): error C2561: findStrInText: функция должна возвращать значение
-D:\Desktop\NewFolder 7\kINpo\MilkaProject\DeleteComment\funcs.cpp(7): message : см. объявление "findStrInText"
+  DeleteComment.vcxproj -> D:\Desktop\NewFolder 7\kINpo\MilkaProject\DeleteComment\Debug\DeleteComment.exe
