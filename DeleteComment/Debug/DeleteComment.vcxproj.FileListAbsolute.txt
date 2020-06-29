@@ -1,4 +1,0 @@
-F:\trash\DeleteComment\Debug\DeleteComment.exe
-F:\trash\DeleteComment\Debug\DeleteComment.pdb
-F:\trash\MilkaProject\DeleteComment\Debug\DeleteComment.exe
-F:\trash\MilkaProject\DeleteComment\Debug\DeleteComment.pdb

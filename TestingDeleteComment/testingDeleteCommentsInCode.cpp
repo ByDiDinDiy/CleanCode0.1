@@ -44,7 +44,7 @@ namespace TestingDeleteComment
 				"}"
 			};
 
-			char countOfStrings = deleteCommentsInCode(programmText, countOfStrings);
+			countOfStrings = deleteCommentsInCode(programmText, countOfStrings);
 			cmptext(programmText, countOfStrings, programmText_resault, countOfStrings_resault);
 		}
 		////2.1.2 В середине строки

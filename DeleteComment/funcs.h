@@ -1,5 +1,3 @@
-#pragma once
-
 #define MAX_SIZE_STRING 20
 #define MAX_SIZE_SYMBOL 81
 

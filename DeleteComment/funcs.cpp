@@ -122,4 +122,15 @@ int  deleteText(char text[MAX_SIZE_STRING][MAX_SIZE_SYMBOL], const int lengthOfT
 	return lengthOfText;
 }
 
+int deletingRows(char text[MAX_SIZE_STRING][MAX_SIZE_SYMBOL], int lengthOfTextInput, const int beginStr, const int quantityStr)
+{
+	//Для каждой удаляемой строки начиная с beginStr
+	for (int i = 0; i < lengthOfTextInput - quantityStr - beginStr; i++)
+	{
+		//Запомнить как текущую строку, строку которая встречается через quantityStr раз 
+		strcpy(text[beginStr + i], text[beginStr + i + quantityStr]);
+	}
 
+	//Вычислить новый размер строки 
+	return lengthOfTextInput - quantityStr;
+}
