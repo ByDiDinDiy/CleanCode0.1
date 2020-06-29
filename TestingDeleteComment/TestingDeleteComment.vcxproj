@@ -167,6 +167,7 @@
     </ClCompile>
     <ClCompile Include="TestingCmpCoordinate.cpp" />
     <ClCompile Include="testingDeleteText.cpp" />
+    <ClCompile Include="TestingDeletingRows.cpp" />
     <ClCompile Include="testingFindStrInText.cpp" />
   </ItemGroup>
   <ItemGroup>

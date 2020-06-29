@@ -6,7 +6,7 @@ using namespace Microsoft::VisualStudio::CppUnitTestFramework;
 
 namespace TestingDeleteComment
 {
-	TEST_CLASS(DeleteCommentsInCode)
+	TEST_CLASS(DeleteText)
 	{
 	public:
 
