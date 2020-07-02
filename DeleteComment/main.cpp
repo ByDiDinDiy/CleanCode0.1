@@ -8,13 +8,13 @@ int main()
 {
 	int countOfStrings = 0;
 	char programmText[MAX_SIZE_STRING][MAX_SIZE_SYMBOL];
-	/*
+	
 	//Ввести количество строк текста
 	printf("Enter count of text's strings:\n");
 	scanf_s("%d", &countOfStrings);
 	getchar();
 
-	if (countOfStrings < 1 || countOfStrings > 20)
+	if (countOfStrings < 1 || countOfStrings > 500)
 	{
 		printf("invalid range");
 		return 0;
@@ -31,6 +31,5 @@ int main()
 	//Вывести код без комментариев
 	for (int i = 0; i < countOfStrings; i++)
 		printf("%s\n", programmText[i]);
-		*/
 	return 0;
 }

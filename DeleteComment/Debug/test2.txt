@@ -1,0 +1,41 @@
+0
+#include "stdafx.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include "funcs.h"
+
+int main()
+{
+	int countOfStrings = 0;
+	char programmText[MAX_SIZE_STRING][MAX_SIZE_SYMBOL];
+	
+	//Первый однострочный коммент
+	printf("Enter count of text's strings:\n");
+	scanf_s("%d", &countOfStrings);
+	getchar();
+
+	if (countOfStrings < 1 || countOfStrings > 500)
+	{
+		printf("invalid range");
+		return 0;
+	}
+
+	/* Многострочный коменнтарии для удаления
+	Номер один */
+	//Второй однострочный коммент
+	printf("Enter Text:\n");
+	for (int i = 0; i < countOfStrings; i++)
+		gets_s(programmText[i]);
+
+	/* Многострочный коменнтарии для удаления
+	Номер два
+	в 3 строчки*/
+	//Третий однострочный коммент
+	countOfStrings = deleteCommentsInCode(programmText, countOfStrings);
+	
+	/* Многострочный коменнтарии для удаления*/
+	//Четвертый однострочный коммент
+	for (int i = 0; i < countOfStrings; i++)
+		printf("%s\n", /* Многострочный коменнтарии для удаления*/ programmText[i]);
+	return 0;
+}

@@ -150,7 +150,7 @@ namespace TestingDeleteComment
 
 			cmptext(programmText, countOfStrings, programmText_resault, countOfStrings_resault);
 		}
-		////2.2.3 Полторы строчки с хвостомами в середине строк
+		////2.2.3 Полторы строчки с хвостами в середине строк
 		TEST_METHOD(oneAndHalfLinesMiddle)
 		{
 			int countOfStrings = 5;
@@ -254,7 +254,7 @@ namespace TestingDeleteComment
 
 			cmptext(programmText, countOfStrings, programmText_resault, countOfStrings_resault);
 		}
-		////2.3.5 Полоdина текста
+		////2.3.5 Половина текста
 		TEST_METHOD(halfText)
 		{
 			int countOfStrings = 5;
